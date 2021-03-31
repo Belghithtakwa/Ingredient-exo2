@@ -26,7 +26,7 @@ public class Plat {
         }
         else return false;
     }
-    public static void main(String[] toto){
+    public static void main(String[] args){
         Plat p = new Plat("Choucroute");
         p.ajouteIngredient(new Ingredient("choucroute","cuite",500,"g"));
         p.ajouteIngredient(new Ingredient("lard","cuit_entier",150,"g"));
